@@ -22,6 +22,7 @@
     <module>org.eclipse.koneki.ldt.branding</module>
     <module>org.eclipse.koneki.ldt.doc.user</module>
     <module>org.eclipse.koneki.ldt.editor</module>
+    <module>org.eclipse.koneki.ldt.launching</module>
     <module>org.eclipse.koneki.ldt.metalua</module>
     <module>org.eclipse.koneki.ldt.metalua.32bits</module>
     <module>org.eclipse.koneki.ldt.metalua.64bits</module>
