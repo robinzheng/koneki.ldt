@@ -78,8 +78,8 @@ public class LuaSourceViewerConfiguration extends ScriptSourceViewerConfiguratio
 		reconciler.setRepairer(dr, ILuaPartitions.LUA_SINGLE_QUOTE_STRING);
 
 		dr = new DefaultDamagerRepairer(this.fMultilineCommentScanner);
-		reconciler.setDamager(dr, ILuaPartitions.LUA_MULTI_LINE_COMMENT);
-		reconciler.setRepairer(dr, ILuaPartitions.LUA_MULTI_LINE_COMMENT);
+		reconciler.setDamager(dr, ILuaPartitions.LUA_COMMENT);
+		reconciler.setRepairer(dr, ILuaPartitions.LUA_COMMENT);
 
 		dr = new DefaultDamagerRepairer(this.fCommentScanner);
 		reconciler.setDamager(dr, ILuaPartitions.LUA_COMMENT);

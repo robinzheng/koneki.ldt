@@ -48,7 +48,7 @@ public class LuaPartitionScanner extends RuleBasedPartitionScanner {
 		 */
 
 		// Multi-line
-		IToken multiLineComment = new Token(ILuaPartitions.LUA_MULTI_LINE_COMMENT);
+		IToken multiLineComment = new Token(ILuaPartitions.LUA_COMMENT);
 		rules.add(new MultiLineRule("--[[", "]]", multiLineComment));//$NON-NLS-1$ //$NON-NLS-2$
 
 		// Single line
